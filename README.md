@@ -16,7 +16,12 @@ A smart application designed to help users manage their diet and nutrition needs
 
 ## Screenshots
 
-*[Screenshots will be added here]*
+![image](https://github.com/user-attachments/assets/673a8f9a-aa79-43f8-8254-5cbb21a8882d)
+![image](https://github.com/user-attachments/assets/7ec5006b-399f-4610-b28e-17d633c2420f)
+![image](https://github.com/user-attachments/assets/56531ce5-4164-4ecf-91e1-69337c203524)
+
+
+
 
 ## Installation
 
