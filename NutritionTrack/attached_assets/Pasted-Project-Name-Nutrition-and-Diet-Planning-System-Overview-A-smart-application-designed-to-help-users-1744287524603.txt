@@ -1,0 +1,99 @@
+Project Name: Nutrition and Diet Planning System
+Overview
+A smart application designed to help users create personalized diet plans based on their health conditions, dietary preferences, and nutritional requirements. The system leverages knowledge-based AI techniques using the CommonKADS methodology, Python 3.x, and PyQt6 for the graphical user interface.
+
+Core Functionalities
+User Profiling
+
+Collects personal details (age, gender, weight, height, activity level).
+
+Records medical conditions (e.g., diabetes, hypertension).
+
+Stores dietary preferences (e.g., vegan, low-carb, gluten-free).
+
+Nutritional Analysis
+
+Calculates Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE).
+
+Evaluates user’s daily nutrient requirements.
+
+Detects deficiencies and excess intake risks.
+
+Meal Planning & Recommendation
+
+Uses an inference engine to recommend meals.
+
+Considers food preferences, health conditions, and nutritional balance.
+
+Adapts plans based on constraints like allergies or dietary restrictions.
+
+Knowledge-Based Decision Making
+
+Stores food nutritional data in JSON format.
+
+Applies forward-chaining inference for recommendations.
+
+Resolves conflicts between competing diet rules.
+
+Interactive GUI (PyQt6)
+
+Allows users to input data through forms.
+
+Displays meal plans with visual breakdowns.
+
+Supports interactive reports and meal adjustments.
+
+System Architecture
+Frontend (GUI)
+
+Developed with PyQt6.
+
+Components:
+
+User Profile Form
+
+Meal Plan Display
+
+Report Generator
+
+Interactive Food Selection
+
+Backend
+
+Uses Python 3.x for logic processing.
+
+JSON-based databases for storing food and user data.
+
+Custom Inference Engine to apply dietary rules.
+
+Core Modules
+
+Profile Manager: Handles user data.
+
+Nutrition Calculator: Computes calorie needs and nutrient intake.
+
+Food Database Interface: Provides nutritional data for meal planning.
+
+Rule Engine: Applies diet constraints and optimizations.
+
+Meal Planner: Generates suitable meal plans.
+
+Report Generator: Creates nutrition summaries.
+
+Technical Details
+Programming Language: Python 3.x
+
+GUI Framework: PyQt6
+
+Data Storage: JSON (for food, rules, and profiles)
+
+Inference Engine: Custom-built forward-chaining algorithm
+
+External Libraries:
+
+pandas for data manipulation
+
+numpy for nutritional calculations
+
+matplotlib for data visualization
+
